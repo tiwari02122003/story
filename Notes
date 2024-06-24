@@ -1,0 +1,11 @@
+open git bash and reach to the current directory
+to initialize git, use command- git init
+t regularly track a working directory , we require a staging area
+to know whether it is tracked the changes by git , we use command- git status.
+
+if it shows your file to untracked then do this- git add chapter1.txt
+
+to end and save all the edit , use command-
+git commit -m "complete chapter1"
+
+to see what changes you made , use command- git log 
