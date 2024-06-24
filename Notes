@@ -4,6 +4,7 @@ t regularly track a working directory , we require a staging area
 to know whether it is tracked the changes by git , we use command- git status.
 
 if it shows your file to untracked then do this- git add chapter1.txt
+and if you want to add whole directory , not just one by one then use command - git add .
 
 to end and save all the edit , use command-
 git commit -m "complete chapter1"
