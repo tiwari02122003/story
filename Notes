@@ -10,3 +10,25 @@ to end and save all the edit , use command-
 git commit -m "complete chapter1"
 
 to see what changes you made , use command- git log 
+
+3 stages- working directory , staging area and finqlly git repository-
+so we add files in staging area by git add. , and them git commit  it , the reason is so as to cluster ot which is 
+required and which is not.
+and if any mishaps found then we use the command- git checkout , to go back to the directory. or torch the whole updated file
+
+command- git diff chapter3.txt   is used to checkout the difference between the precious one and the updated one.
+
+command to push the git repository-
+"git push -u origin main"
+before check this -
+"git log"
+
+here from the git repository we push all the information to the remote repository. here our remote repository is github.
+
+DS store file is a default file which is present in every project , having settings in it.
+we can see the hiddenfile of our project by command-
+"ls -a "
+gitignore  files are igbored files which you cant view or download from others project, it contains API/ PASSKEY 
+etc.
+
+git clone "filename "  is the command to copy all the github files on our computer. now that is your file and you are able to make any sort of changes to it.
